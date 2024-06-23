@@ -6,3 +6,5 @@ whitenoise
 gunicorn==20.0.4
 django-storages[s3]
 wagtail-storages
+pyopslib @ git+https://github.com/mgax/opslib@f489440
+opslib-contrib @ git+https://github.com/mgax/opslib-contrib@b4c6107

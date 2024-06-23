@@ -30,6 +30,7 @@ EXPOSE 8000
 
 RUN apt-get update --yes --quiet && apt-get install --yes --quiet --no-install-recommends \
     build-essential \
+    git \
     && apt-get autoremove && rm -rf /var/lib/apt/lists/*
 
 # Don't use the root user as it's an anti-pattern

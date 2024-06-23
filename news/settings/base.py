@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "news.standardpages",
     "news.users",
     "news.utils",
+    "news.deploy",
     "wagtail.contrib.settings",
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
